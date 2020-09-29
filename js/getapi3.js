@@ -15,12 +15,12 @@ const api_url = new URL("https://www.googleapis.com/blogger/v3/blogs/60649514050
               // Storing data in form of JSON 
               var data = await response.json();
               console.log(data) ;
-              show(data); 
+              shownovel(data); 
             } 
             // Calling that async function 
             getapi(api_url); 
             // Function to define innerHTML for HTML table 
-            function show(data) { 
+            function shownovel(data) { 
               let tab=''; 
               
               // Loop to access all rows 
