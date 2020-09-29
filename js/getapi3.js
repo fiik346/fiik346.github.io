@@ -48,5 +48,5 @@ const api_url = new URL("https://www.googleapis.com/blogger/v3/blogs/60649514050
                 </div>
                 </article>`; 
               } 
-              document.getElementById("parse").innerHTML = tab; 
+              document.getElementById("novelist").innerHTML = tab; 
             } 
