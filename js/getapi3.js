@@ -1,4 +1,4 @@
-new URL("https://www.googleapis.com/blogger/v3/blogs/6064951405000512251/posts");
+const api_url = new URL("https://www.googleapis.com/blogger/v3/blogs/6064951405000512251/posts");
             api_url.search = new URLSearchParams({
               key:"AIzaSyC1CIz86nWusMiNvDUXXHnU2ILSyOP6xe0",
               fetchBodies:false,
